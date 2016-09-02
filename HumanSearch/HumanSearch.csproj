@@ -134,6 +134,7 @@
     </Compile>
     <Compile Include="Models\Human.cs" />
     <Compile Include="Models\HumanDBContext.cs" />
+    <Compile Include="Models\HumansInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
