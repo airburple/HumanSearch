@@ -8,6 +8,10 @@ namespace HumanSearch.Models
 {
     public class HumanDBContext : DbContext
     {
+        public HumanDBContext() : base("HumanDBContext")
+        {
+        }
+
         public DbSet<Human> human { get; set; }
     }
 }
